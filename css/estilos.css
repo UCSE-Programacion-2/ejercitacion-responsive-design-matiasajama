@@ -183,4 +183,26 @@ footer ul {
 }
 
 /*** Responsive */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
 
+  section > div {
+    flex-direction: column;
+  }
+
+  #card-section > div {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  .formulario,
+  .contacto,
+  .card {
+    width: 100%;
+  }
+}
