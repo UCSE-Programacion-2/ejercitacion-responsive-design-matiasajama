@@ -206,3 +206,16 @@ footer ul {
     width: 100%;
   }
 }
+
+@media (max-width: 450px) {
+
+  .card {
+    width: 100%;
+  }
+
+  .formulario,
+  .contacto {
+    width: 100%;
+  }
+
+}
