@@ -209,13 +209,31 @@ footer ul {
 
 @media (max-width: 450px) {
 
-  .card {
-    width: 100%;
+  nav ul {
+    gap: 10px;
+    align-items: center;
   }
 
-  .formulario,
+  nav ul li a {
+    display: block;
+    padding: 10px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  .card {
+    margin: 15px 0;
+  }
+
   .contacto {
-    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+  }
+
+  footer {
+    padding: 20px;
   }
 
 }
