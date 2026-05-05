@@ -184,9 +184,6 @@ footer ul {
 
 /*** Responsive */
 @media (max-width: 768px) {
-  nav ul {
-    flex-direction: column;
-  }
 
   section > div {
     flex-direction: column;
@@ -204,6 +201,10 @@ footer ul {
   .contacto,
   .card {
     width: 100%;
+  }
+  
+  .contacto {
+    text-align: center;
   }
 }
 
@@ -235,5 +236,4 @@ footer ul {
   footer {
     padding: 20px;
   }
-
 }
